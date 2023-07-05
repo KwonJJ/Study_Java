@@ -21,6 +21,7 @@ public class Student { //멤버변수 -> 멤버변수 선언할땐 항상 주석
 		this.studetId = studentId;
 		this.phoneNumber = phoneNumber;
 	}
+
 }
 
 /* 
