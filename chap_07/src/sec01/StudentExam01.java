@@ -1,13 +1,13 @@
 package sec01;
 
-public class StudentExam {
+public class StudentExam01 {
 
 	public static void main(String[] args) {
-		Student stu = new Student(20220711, "남자", 180); // Student클래스 객체 생성
+		Student01 stu = new Student01(20220711, "남자", 180); // Student01클래스 객체 생성
 		
 		stu.dressOn();
 		stu.dressOff();
-		stu.study("도서관"); // Student클래스의 study메소드 호출
+		stu.study("도서관"); // Student01클래스의 study메소드 호출
 		
 		String speed = stu.run(10); // speed변수에 Human(부모)메소드 리턴값 저장
 		// Human(부모) 메소드 호출

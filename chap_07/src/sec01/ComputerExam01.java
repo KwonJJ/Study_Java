@@ -1,9 +1,9 @@
 package sec01;
 
-public class ComputerExam {
+public class ComputerExam01 {
 
 	public static void main(String[] args) {
-		Notebook pc = new Notebook("ASUS", "알파스캔", "300만원"); // 객체 생성
+		Notebook01 pc = new Notebook01("ASUS", "알파스캔", "300만원"); // 객체 생성
 
 		System.out.println("컴퓨터 가격 : " + pc.price); // Computer(부모)클래스에서 상속받은 필드 출력
 		System.out.println("제조 회사 : " + pc.company); // Computer(부모)클래스에서 상속받은 필드출력

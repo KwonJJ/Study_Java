@@ -1,6 +1,6 @@
 package sec01;
 
-public class Computer {
+public class Computer01 {
 	String company;
 	String monitorCompany;
 	String price;

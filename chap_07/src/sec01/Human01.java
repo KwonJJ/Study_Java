@@ -1,6 +1,6 @@
 package sec01;
 
-public class Human {
+public class Human01 {
 	int weight; // 몸무게
 	int height; // 키
 	String gender; // 성별

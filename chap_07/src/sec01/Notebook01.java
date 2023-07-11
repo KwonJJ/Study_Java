@@ -1,12 +1,12 @@
 package sec01;
 
-public class Notebook extends Computer{
+public class Notebook01 extends Computer01{
 	String CPU;
 	String GPU;
 	String Wifi;
 	String camera;
 	
-	public Notebook(String company, String monitorCompany, String price) {
+	public Notebook01(String company, String monitorCompany, String price) {
 		this.company = company; // Computer부모 객체에서 상속받음
 		this.monitorCompany = monitorCompany; // Computer부모 객체에서 상속받음
 		this.price = price; // Computer부모 객체에서 상속받음
