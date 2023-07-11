@@ -25,6 +25,14 @@ public class Student02 extends Human02{ // Student02클래스에 Human02클래�
 	String eat(String food) {
 		String result = food + "를 매일 먹어요";
 		return result;
+		/* 
+		 * 메소드가 재정의될 경우 부모 객체 메소드가 숨겨지며, 자식 객체에서 메소드 호출하면 재정의된 자식 메소드가 호출됨
+		 * 
+		 * <부모 메소드 호출>
+		 * 자식 클래스 내부에서 재정의된 부모 클래스 메소드 호출해야 하는 경우\
+		 * super키워드 붙여 부모 메소드 호출
+		 * ex) super.부모
+		 */
 	}
 	
 	
