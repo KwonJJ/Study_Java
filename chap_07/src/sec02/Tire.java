@@ -6,7 +6,7 @@ public class Tire {
 	public int accumulatedRotation; // 누적 회전수
 	public String location; // 타이어의 위치
 
-	public Tire(int maxRotation, String location) {
+	public Tire(String location, int maxRotation) {
 		// Tire 생성자
 		this.maxRotation = maxRotation; // 필드의 타이어의 위치 초기화
 		this.location = location; // 필드의 최대 회전수(타이어수명) 초기화
