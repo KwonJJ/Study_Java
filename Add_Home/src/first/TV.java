@@ -1,9 +1,9 @@
 package first;
 
 public class TV {
-	String company;
-	int year;
-	int inch;
+	private	String company;
+	private	int year;
+	private	int inch;
 	// 매개변수
 	
 	public TV(String company, int year, int inch) {
