@@ -1,4 +1,4 @@
-package one;
+package 보강01;
 
 import java.util.Scanner;
 

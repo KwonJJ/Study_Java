@@ -1,4 +1,4 @@
-package one;
+package 보강01;
 
 public class Phone {
 	private String name; // 이름 필드
