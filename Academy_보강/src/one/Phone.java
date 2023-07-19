@@ -1,4 +1,4 @@
-package first;
+package one;
 
 public class Phone {
 	private String name; // 이름 필드

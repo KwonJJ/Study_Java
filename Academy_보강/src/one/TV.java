@@ -1,4 +1,4 @@
-package first;
+package one;
 
 public class TV {
 	private String company;

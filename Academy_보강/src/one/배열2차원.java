@@ -1,4 +1,4 @@
-package first;
+package one;
 
 public class 배열2차원 {
 
