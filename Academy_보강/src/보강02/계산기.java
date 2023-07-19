@@ -14,10 +14,7 @@ public class 계산기 {
 		int b = s.nextInt();
 		char c = s.next().charAt(0); // 세번 째로 입력한 연산자를 char 타입으로 저장
 		
-		Calc cal;
-		/*
-		 * 추상 클래스의 객체 생성
-		 */
+		Calc cal; // 추상클래스의 객체 생성
 		
 		switch (c) {
 		case '+':
