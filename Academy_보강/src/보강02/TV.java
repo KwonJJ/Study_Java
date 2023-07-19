@@ -3,11 +3,19 @@ package 보강02;
 public class TV {
 	private int size;
 
+	
 	public TV(int size) {
 		this.size = size;
 	}
-
-	protected int GetSize() {
+	
+	protected int getSize() {
 		return size;
+	}
+
+	public void setSize(int size) {
+		this.size = size;
+	}
+
+	void printProperty() {
 	}
 }
