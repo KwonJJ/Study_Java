@@ -7,7 +7,8 @@ public class Calculator {
 		return memory;
 	}
 
-	public void setMemory(int memory) { // 계산기 메모리에 값을 저장하는 메소드
+	public synchronized void setMemory(int memory) { // 계산기 메모리에 값을 저장하는 메소드
+		// synchronized -> 객체에 잠금을 걸어 다른 스레드가 동기화 메소드를 실행하지 못하도록 함
 		this.memory = memory; // 매개값을 memory필드에 저장
 		try { // 딜레이 안주면 User1 : 100, User2 : 50이 출력됨
 			Thread.sleep(1000);
