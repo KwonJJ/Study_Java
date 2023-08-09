@@ -1,4 +1,4 @@
-package problem;
+package teacherProblem;
 
 public class word {
 	private String english; // 영단어

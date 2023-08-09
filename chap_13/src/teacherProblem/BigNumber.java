@@ -1,4 +1,4 @@
-package problem;
+package teacherProblem;
 
 import java.util.*;
 
