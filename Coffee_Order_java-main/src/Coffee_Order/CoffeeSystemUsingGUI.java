@@ -49,7 +49,7 @@ public class CoffeeSystemUsingGUI {
 	public static void main(String[] args) {
 		JFrame fr = new JFrame("Taehoung 커피시스템");
 		// 이미지 패널 그리기
-        ImagePanel pn =new ImagePanel(new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\배경화면.jpg").getImage());
+        ImagePanel pn =new ImagePanel(new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\배경화면.jpg").getImage());
         fr.pack();
         fr.add(pn);
         JPanel Hotpn = new JPanel();
@@ -165,7 +165,7 @@ public class CoffeeSystemUsingGUI {
 				// Hotpn에 생성할 이지지 버튼들을 설정
 				JButton HotButton_아메리카노 = new JButton("");
 				fr.add(Hotpn);
-				HotButton_아메리카노.setIcon(new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\아메리카노.JFIF"));
+				HotButton_아메리카노.setIcon(new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\아메리카노.JFIF"));
 				Hotpn.add(HotButton_아메리카노);
 				HotButton_아메리카노.setBounds(20, 20, 260,195);
 				//메뉴이름 띄어줄 텍스트 필드 생성
@@ -191,7 +191,7 @@ public class CoffeeSystemUsingGUI {
 			            }});
 				
 				JButton HotButton_카푸치노 = new JButton("");
-				HotButton_카푸치노.setIcon(new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\카푸치노.JFIF"));
+				HotButton_카푸치노.setIcon(new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\카푸치노.JFIF"));
 				Hotpn.add(HotButton_카푸치노);
 				HotButton_카푸치노.setBounds(280, 20, 259, 194);
 				//메뉴이름 띄어줄 텍스트 필드 생성
@@ -249,7 +249,7 @@ public class CoffeeSystemUsingGUI {
 				
 				fr.add(Icepn);
 				JButton IceButton_아이스아메리카노 = new JButton("");								
-				IceButton_아이스아메리카노.setIcon(new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\(ICE)아메리카노.JFIF"));
+				IceButton_아이스아메리카노.setIcon(new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\(ICE)아메리카노.JFIF"));
 				Icepn.add(IceButton_아이스아메리카노);
 				IceButton_아이스아메리카노.setBounds(20, 20, 259,194);
 				//메뉴이름 띄어줄 텍스트 필드 생성
@@ -274,7 +274,7 @@ public class CoffeeSystemUsingGUI {
 		                }
 		            }});			
 		        // 이미지 크기조절하기!
-				ImageIcon icon_아이스카페라떼 = new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\아이스카페라떼.jpg");						
+				ImageIcon icon_아이스카페라떼 = new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\아이스카페라떼.jpg");						
 				JButton IceButton_아이스카페라떼 = new JButton(CoffeeSystem.resizeIcon(icon_아이스카페라떼, 259, 194));				
 				Icepn.add(IceButton_아이스카페라떼);
 				IceButton_아이스카페라떼.setBounds(280, 20, 259,194);
@@ -330,7 +330,7 @@ public class CoffeeSystemUsingGUI {
         	
 			private void doAde() {
 			 fr.add(Adepn);
-				JButton AdeButton_레몬에이드 = new JButton(new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\레몬에이드.JFIF"));
+				JButton AdeButton_레몬에이드 = new JButton(new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\레몬에이드.JFIF"));
 				Adepn.add(AdeButton_레몬에이드);
 				AdeButton_레몬에이드.setBounds(20, 20, 259,194);
 				//메뉴이름 띄어줄 텍스트 필드 생성
@@ -354,7 +354,7 @@ public class CoffeeSystemUsingGUI {
 			            }
 			});
 				
-				ImageIcon icon_자몽에이드 = new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\자몽에이드.JPG");
+				ImageIcon icon_자몽에이드 = new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\자몽에이드.JPG");
 				JButton AdeButton_자몽에이드 = new JButton(CoffeeSystem.resizeIcon(icon_자몽에이드, 260, 195));
 				
 				Adepn.add(AdeButton_자몽에이드);
@@ -407,7 +407,7 @@ public class CoffeeSystemUsingGUI {
         	
 			private void doDeasert() {
 			 fr.add(Dstpn);
-				JButton DstButton_초코케이크 = new JButton(new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\초코케이크.JFIF"));
+				JButton DstButton_초코케이크 = new JButton(new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\초코케이크.JFIF"));
 				Dstpn.add(DstButton_초코케이크);
 				DstButton_초코케이크.setBounds(20, 20, 259,194);
 				//메뉴이름 띄어줄 텍스트 필드 생성
@@ -431,7 +431,7 @@ public class CoffeeSystemUsingGUI {
 			                }
 			            }
 			});
-				ImageIcon icon_딸기케이크 = new ImageIcon("C:\\workpace\\THcoffeeSystem\\images\\딸기케이크.JFIF");
+				ImageIcon icon_딸기케이크 = new ImageIcon("C:\\selfstudyjava\\Study_Java\\Coffee_Order_java-main\\images\\딸기케이크.JFIF");
 				JButton DstButton_딸기케이크 = new JButton(CoffeeSystem.resizeIcon(icon_딸기케이크, 260, 195));
 				Dstpn.add(DstButton_딸기케이크);
 				DstButton_딸기케이크.setBounds(280, 20, 259,194);
