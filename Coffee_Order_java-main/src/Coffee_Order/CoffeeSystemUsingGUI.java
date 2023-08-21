@@ -27,7 +27,6 @@ public class CoffeeSystemUsingGUI {
 		private Image img;		
 		// 2번방식: img를 선언하고 경로도 한번에 같이 써주기
 		private Image manual_img = new ImageIcon("C:\\\\selfstudyjava\\\\Study_Java\\\\Coffee_Order_java-main\\\\images\\\\사용설명서.jpg").getImage();
-		//private Image manual_img = new ImageIcon("C:\\\\workpace\\\\THcoffeeSystem\\\\images\\\\사용설명서.jpg").getImage();
 		// 이미지 경로 변경해줘야 적용됨.
 		
 		public ImagePanel (Image img) {
@@ -569,9 +568,11 @@ public class CoffeeSystemUsingGUI {
         //프레임 설정
         fr.setLocation(300,150);
         fr.setContentPane(pn);
-        fr.setSize(1900, 1200);
+        fr.setSize(1920, 1080); 
+        // GUI프로그램 해상도
         fr.setVisible(true);
-        fr.setResizable(false);
+        fr.setResizable(false); 
+        // JFrame을 이용한 GUI프로그램 창크기 고정(수정 못함)
         fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 	
